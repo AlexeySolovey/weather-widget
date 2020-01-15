@@ -3,8 +3,34 @@
 <head>
 	<meta charset="UTF-8">
 	<title>weather widget</title>
+	<link rel="stylesheet" type="text/css" href="./css/spiner.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="icon" type="image/png" href="./img/logo_60x60.png">
 </head>
 <body>
-	hello world!
+
+	<div class="load-container">
+		<div class="loader" id="loader"></div>
+		<div class="weather-wrap">
+			<h3 class="weather-city" id="city">Kiev</h3>
+			<div class="weather-info">
+				<div class="weather-temperature">
+					<p class="weather-degree" id="temp">28</p>
+					<div class="wind-speed">S <span id="wind"></span> km/h</div>
+				</div>
+				<div class="overcast">
+					<img class="overcast-icon" src="http://openweathermap.org/img/wn/10d@2x.png" alt="icon">
+					<span class="overcast-status" id="status">Rain</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	
+
+
+	
+	<script src="./js/common.js"></script>
 </body>
 </html>

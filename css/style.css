@@ -1,0 +1,50 @@
+.weather-wrap{
+	height: 200px;
+	width: 300px;
+	background: #3f476f;
+	color: #fff;
+	padding: 20px;
+}
+.loader + .weather-wrap {
+	display: none;
+}
+.weather-city{
+	font-size: 45px;
+	margin: 0;
+	margin-bottom: 30px;
+}
+.weather-info{
+	display: flex;
+	justify-content: center;
+}
+.weather-temperature{
+	margin: 0 20px
+}
+.weather-degree{
+	font-size: 60px;
+	margin:0;
+	min-height: 100px;
+}
+.weather-degree:after{
+	content: "°C";
+	bottom: 23.5px;
+    font-size: 28px;	
+	position: relative;
+	color: #b7b7ee;
+	font-family: Arial, sans-serif;
+    font-weight: 100;
+}
+.wind-speed{
+	color: #b7b7ee;
+}
+.overcast{
+	text-align: center;
+	margin: 0 20px
+}
+.overcast-icon{
+	display: block;
+}
+
+.overcast-status{
+	color: #b7b7ee;
+}
