@@ -12,7 +12,7 @@ fetch(url)
   .then(response => response.json())
   .then(
     commits => {
-    	setInterval(() => {
+    	setTimeout(() => {
 		  	loader.classList.remove("loader");
 	        cityName.innerHTML 		= commits.name;
 	        temperature.innerHTML 	= Math.round(commits.main.temp);
